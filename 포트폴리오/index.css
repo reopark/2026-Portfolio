@@ -377,6 +377,12 @@ header {
     opacity: 0.6;
 }
 
+.s5 .container .btns {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
 .s5 .container .btn {
     display: inline-block;
     padding: 14px 36px;
@@ -384,16 +390,12 @@ header {
     font-size: 14px;
     letter-spacing: 1px;
     transition: 0.3s;
+    text-align: center;
 }
-
 
 .s5 .container .btn:hover {
     background-color: #fff;
     color: #000;
-}
-
-.s5 .container .btn:not(:first-child) {
-    margin-left: 10px;
 }
 
 .s5 .container .img_box {
